@@ -1,0 +1,36 @@
+.table{
+     display: inline-block;
+     border: 1px solid #eee;
+     margin: 0 auto;
+     max-width:300px;
+     table-layout: fixed;
+     margin-bottom: 20px;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.table td{
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    text-align: left;
+}
+.table tbody tr:nth-child(odd){
+    background: #fff;
+}
+.table tbody tr:nth-child(even){
+    background: #F7F7F7;
+}
+#container {
+    width: auto;
+}
+div.demo {
+    display: table;
+    width: 100%;
+}
+div.demo span {
+    display: table-cell;
+    text-align: center;
+}
